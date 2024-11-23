@@ -1,0 +1,87 @@
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #000000;
+}
+
+.tab-button.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.input_div {
+  display: flex;
+  justify-content: center;
+  margin: 35px 0;
+}
+
+.input {
+  padding: 12px;
+  width: 300px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  transition: ease 0.7s;
+}
+
+.product-image {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.product-title {
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+
+.price-div {
+  display: flex;
+  justify-content: center;
+}
+
+.product-price {
+  position: absolute;
+  font-size: 16px;
+  color: #007bff;
+  font-weight: 800;
+  bottom: 5px;
+  text-align: center;
+}
